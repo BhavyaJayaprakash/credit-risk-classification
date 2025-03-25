@@ -17,6 +17,8 @@ As part of the machine learning process, following steps were followed:
 
  ## The Results:
  
+![Screenshot 2025-03-24 225924](https://github.com/user-attachments/assets/e6661b35-487b-4cd6-85dd-b9f6653bc8cf)
+ 
 The logistic regression model performs very well in predicting both healthy loans (0) and high-risk loans (1), but there are some differences in performance between the two classes.
 
 # Performance Analysis:
