@@ -52,3 +52,6 @@ Skewed by the large number of Class 0 samples, making it appear better than it m
 ## Potential Recommendations:
 If identifying high-risk loans correctly is the priority, then we can adjust the Decision Threshold: Lower the threshold to classify more loans as high-risk, increasing recall.
 We could also try Alternative Models, like Random Forest which may capture high-risk loans better.
+
+## Recomended Model for a companys use: 
+The best model for company use depends on the business priorities. Since the dataset is highly imbalanced, like most loans are healthy, but a small number are high-risk, the chosen model must balance precision and recall effectively for high-risk loans which would be Class 1 model. The Risk Sensitivity would be, if missing a high-risk loan is costly like a financial loss occurs, then higher recall is needed. On the other hand if wrongly flagging healthy loans like losing customers is a problem, then higher precision is needed. For better scalability & performance the model class 1 will handle large volumes of loan applications efficiently.
